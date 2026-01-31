@@ -61,7 +61,7 @@ if generate_button:
         st.warning("Por favor, informe o tema do conteúdo.")
         st.stop()
 
-    prompt_text = load_prompt("prompts/marketing.txt")
+    prompt_text = load_prompt("prompts/marketing_v3.txt")
 
     prompt_template = ChatPromptTemplate.from_messages([
         ("system", "Você é um redator profissional de marketing digital."),
